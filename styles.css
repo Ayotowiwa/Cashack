@@ -1,0 +1,152 @@
+/* header */
+.spiral {
+  background-image: url(Images/MacBook\ Air\ -\ 2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0;
+  height: 700px;
+  /* border: 2px solid black; */
+}
+
+.header {
+  padding-top: 25px;
+  padding-left: 150px;
+  padding-right: 150px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+button {
+  color: #f4f2f2;
+  background: linear-gradient(
+    to bottom,
+    #f0b050,
+    #e0a040,
+    #cf8f2f,
+    #bf801d,
+    #af7006
+  );
+  border-radius: 30px;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.dark {
+  color: #f4f2f2;
+  background: black;
+  border-radius: 30px;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+}
+.hero {
+  padding: 25px 150px;
+}
+h1 {
+  font-size: 62px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700px;
+  color: #f5ecdd;
+}
+h2 {
+  font-size: 38px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700px;
+  color: #f5ecdd;
+}
+h3 {
+  font-size: 38px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700px;
+  color: #f3d162;
+}
+p {
+  font-size: 18px;
+  color: #b9b9b9;
+  font-family: "Poppins", sans-serif;
+}
+.statcost {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  width: 70%;
+}
+.statitems {
+  margin: 25px 0;
+  padding: 0px;
+  border-right: 0.5px solid rgba(255, 255, 255, 0.753);
+}
+.noborder {
+  border-right: 0px solid;
+}
+.littlep {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+}
+.community {
+  background-image: linear-gradient(
+    to left bottom,
+    #1d1200,
+    #231703,
+    #2a1c05,
+    #312007,
+    #382509
+  );
+  text-align: center;
+  padding: 25px 150px;
+  border-top: 1px solid rgba(0, 0, 0, 0);
+}
+
+.community-flex {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  margin: 0 auto;
+}
+
+.community-item {
+  text-align: center;
+  margin: 25px;
+}
+.community-item > * {
+  margin: 3px;
+}
+.our-partner {
+  text-align: center;
+  padding: 25px 150px;
+  background-image: linear-gradient(
+    to right bottom,
+    #352106,
+    #301e05,
+    #2c1b04,
+    #271903,
+    #231602,
+    #231602,
+    #231703,
+    #231703,
+    #281a05,
+    #2d1e06,
+    #332108,
+    #382509
+  );
+}
+.our-partner > * {
+    margin: 25px;
+}
+.press {
+    margin-top: 70px;
+}
+.press > * {
+    margin-top: 40px;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 150px;
+    background-color: #2B1C07;
+}
+
