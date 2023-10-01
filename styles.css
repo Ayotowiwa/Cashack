@@ -3,8 +3,9 @@
   background-image: url(Images/MacBook\ Air\ -\ 2.png);
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 0;
-  height: 700px;
+  padding: 15px;
+  background-position: center;
+  min-height: 700px;
   /* border: 2px solid black; */
 }
 
@@ -73,7 +74,7 @@ p {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
-  width: 70%;
+  
 }
 .statitems {
   margin: 25px 0;
@@ -83,6 +84,7 @@ p {
 .noborder {
   border-right: 0px solid;
 }
+
 .littlep {
   font-family: "Inter", sans-serif;
   font-size: 12px;
@@ -150,3 +152,50 @@ p {
     background-color: #2B1C07;
 }
 
+/* THIS IS THE BEGINNING OF CODING TO RESPONSIVENESS 
+THIS IS THE BEGINNING OF CODING TO RESPONSIVENESS 
+THIS IS THE BEGINNING OF CODING TO RESPONSIVENESS 
+THIS IS THE BEGINNING OF CODING TO RESPONSIVENESS 
+*/
+@media (max-width: 850px) {
+  .spiral {
+    text-align: center; 
+    padding: 15px 30px; 
+  }
+  .community-flex {
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(3, 1fr); 
+    margin: 0 auto; 
+  }
+  .header {
+    flex-direction: column; 
+    align-items: center; 
+  }
+  .statcost {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .res-noborder {
+    border-right: 0px solid;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  .our-partner img {
+    max-width: 100%; 
+  }
+
+  .community,
+  .our-partner,
+  .footer {
+    padding: 25px 30px; 
+  }
+
+  .press-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(2, 1fr); 
+    margin-top: 20px; 
+  }
+}
